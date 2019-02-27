@@ -1,0 +1,41 @@
+# YoutubeSubscriberCount Plugin/Widget for Wordpress
+
+A customizable widget that allows admins to add a Youtube Button to their Wordpress site. Enables admin to indicate Channel, Layout and Count visibility.
+
+## Getting Started
+
+Download the plugin and extract it inside the wp-content/plugins folder of your Wordpress site.
+
+### Prerequisites
+
+Indicate a valid Channel ID on Widget options.
+
+
+Invalid Channel ID will cause the plugin to display Error.
+
+
+### Installing
+
+Here's the step by step instructions on how to install the plugin.
+
+
+First, download a copy of the plugin from Wordpress plugin directory, Bitbucket or our official website (https://pinoyitsolution.com/portfolio/wordpress-youtube-subscriber-count-plugin/).
+
+Second, extract files on wp-content/plugins folder.
+
+Third, go to your Wordpress Admin Plugins Page, find and activate "YT Sub Counter"
+
+Fourth, go to Wordpress Admin Widgets Page, Look for Youtube Subscribers add to a widget area as desired.
+
+Fifth, edit widget and change widget settings and save.
+
+
+
+## Authors
+
+* **Ron A**
+
+## License
+
+License:      GPL2
+License URI:  https://www.gnu.org/licenses/gpl-2.0.html
