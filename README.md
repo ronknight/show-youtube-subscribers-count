@@ -2,7 +2,7 @@
 ###### Contributors: myndsyn, Ronknight
 ###### Tags: youtube, counter, subscriber
 ###### Requires at least: 3.0.1
-###### Tested up to: 5.0.3
+###### Tested up to: 5.1
 ###### Requires PHP: 5.2.4
 ###### Stable tag: 1.0
 
