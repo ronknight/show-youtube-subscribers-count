@@ -4,7 +4,7 @@ Tags: youtube, counter, subscriber
 Requires at least: 3.0.1
 Tested up to: 5.2.1
 Requires PHP: 5.2.4
-Stable tag: 1.0
+Stable tag: 2.0
 
 # YoutubeSubscriberCount Plugin/Widget for Wordpress
 
@@ -37,6 +37,15 @@ Fourth, go to Wordpress Admin Widgets Page, Look for Youtube Subscribers add to 
 
 Fifth, edit widget and change widget settings and save.
 
+## Changelog ##
+
+Project maintained on github at [ronknight/show-youtube-subscribers-count](https://github.com/ronknight/show-youtube-subscribers-count).
+
+### 2.0.0 ###
+
+* Add theme options dark and defaults
+
+* correct error when using a non custom youtube URL
 
 
 ## Authors
