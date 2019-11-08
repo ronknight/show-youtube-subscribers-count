@@ -43,7 +43,7 @@ class YT_Sub_Widget extends WP_Widget {
 	 */
 	public function form( $instance ) {
 		$title = ! empty( $instance['title'] ) ? $instance['title'] : esc_html__( 'Youtube Subscribers', 'yts_domain' );
-		$channel = ! empty( $instance['channel'] ) ? $instance['channel'] : esc_html__( 'UCeoETAlg3skyMcQPqr97omg', 'yts_domain' );
+		$channel = ! empty( $instance['channel'] ) ? $instance['channel'] : esc_html__( 'PinoyITSolution', 'yts_domain' );
 		$layout = ! empty( $instance['layout'] ) ? $instance['layout'] : esc_html__( 'default', 'yts_domain' );
 		$theme = ! empty( $instance['theme'] ) ? $instance['theme'] : esc_html__( 'default', 'yts_domain' );
 		$count = ! empty( $instance['count'] ) ? $instance['count'] : esc_html__( 'default', 'yts_domain' );
@@ -96,7 +96,7 @@ class YT_Sub_Widget extends WP_Widget {
 			</select>
 		</p>
 
-		<!-- Theme -->
+		<!-- Layout -->
 		<p>
 		    <label for="<?php echo esc_attr( $this->get_field_id( 'theme' ) ); ?>">
                 <?php esc_attr_e( 'Theme:', 'yts_domain' ); ?>
@@ -106,10 +106,10 @@ class YT_Sub_Widget extends WP_Widget {
             class="widefat" 
             id="<?php echo esc_attr( $this->get_field_id( 'theme' ) ); ?>" 
             name="<?php echo esc_attr( $this->get_field_name( 'theme' ) ); ?>">
-			<option value="default" <?php echo ($theme == 'default') ? 'selected' : ''; ?>>
+			<option value="default" <?php echo ($layout == 'default') ? 'selected' : ''; ?>>
 				Default
 			</option>
-			<option value="dark" <?php echo ($theme == 'dark') ? 'selected' : ''; ?>>
+			<option value="dark" <?php echo ($layout == 'dark') ? 'selected' : ''; ?>>
 				Dark
 			</option>
 			</select>

@@ -43,7 +43,7 @@ class YT_Sub_Widget extends WP_Widget {
 	 */
 	public function form( $instance ) {
 		$title = ! empty( $instance['title'] ) ? $instance['title'] : esc_html__( 'Youtube Subscribers', 'yts_domain' );
-		$channel = ! empty( $instance['channel'] ) ? $instance['channel'] : esc_html__( 'UCeoETAlg3skyMcQPqr97omg', 'yts_domain' );
+		$channel = ! empty( $instance['channel'] ) ? $instance['channel'] : esc_html__( 'PinoyITSolution', 'yts_domain' );
 		$layout = ! empty( $instance['layout'] ) ? $instance['layout'] : esc_html__( 'default', 'yts_domain' );
 		$theme = ! empty( $instance['theme'] ) ? $instance['theme'] : esc_html__( 'default', 'yts_domain' );
 		$count = ! empty( $instance['count'] ) ? $instance['count'] : esc_html__( 'default', 'yts_domain' );

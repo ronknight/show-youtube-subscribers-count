@@ -2,7 +2,7 @@
 Contributors: myndsyn, Ronknight
 Tags: youtube, counter, subscriber
 Requires at least: 3.0.1
-Tested up to: 5.2.4
+Tested up to: 5.2.1
 Requires PHP: 5.2.4
 Stable tag: 2.0
 
@@ -19,7 +19,7 @@ Download the plugin and extract it inside the wp-content/plugins folder of your 
 Indicate a valid Channel ID on Widget options.
 
 
-Invalid Channel ID will cause the plugin to display Error. Get ID from here(https://www.youtube.com/account_advanced)
+Invalid Channel ID will cause the plugin to display Error.
 
 
 ### Installing
